@@ -21,10 +21,13 @@ jobs:
 
       - name: Run update script
         run: python update_contests.py  # Adjust the path as needed
+        env:
+          CLIST_API_KEY: ${{ secrets.CLIST_API_KEY }}  # Pass API key from GitHub Secrets
 
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add filtered_data.json
           git commit -m "Update contests data"
           git push https://$PAT_TOKEN@github.com/rahulharpal1603/json.git HEAD:main
