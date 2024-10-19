@@ -1,0 +1,32 @@
+name: Update Contests
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  update-contests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run update script
+        run: python update_contests.py  # Adjust the path as needed
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git add filtered_data.json
+          git commit -m "Update contests data"
+          git push https://$PAT_TOKEN@github.com/rahulharpal1603/json.git HEAD:main
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}  # Use the secret you created
