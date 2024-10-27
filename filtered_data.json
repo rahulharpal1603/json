@@ -11410,5 +11410,11 @@
         "name": "Codeforces Round 982 (Div. 2)",
         "div": "D2",
         "startTime": "2024-10-26T14:35:00"
+    },
+    "2035": {
+        "pCount": 11688,
+        "name": "Codeforces Global Round 27",
+        "div": "Unknown",
+        "startTime": "2024-10-27T14:35:00"
     }
 }
