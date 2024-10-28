@@ -11416,5 +11416,11 @@
         "name": "Codeforces Global Round 27",
         "div": "Unknown",
         "startTime": "2024-10-27T14:35:00"
+    },
+    "2026": {
+        "pCount": 14738,
+        "name": "Educational Codeforces Round 171 (Rated for Div. 2)",
+        "div": "ED2",
+        "startTime": "2024-10-28T14:35:00"
     }
 }
