@@ -11428,5 +11428,11 @@
         "name": "Codeforces Round 983 (Div. 2)",
         "div": "D2",
         "startTime": "2024-11-01T14:35:00"
+    },
+    "2036": {
+        "pCount": 21576,
+        "name": "Codeforces Round 984 (Div. 3)",
+        "div": "D3",
+        "startTime": "2024-11-02T14:35:00"
     }
 }
