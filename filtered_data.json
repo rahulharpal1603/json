@@ -11440,5 +11440,11 @@
         "name": "Refact.ai Match 1 (Codeforces Round 985)",
         "div": "Unknown",
         "startTime": "2024-11-09T14:35:00"
+    },
+    "2028": {
+        "pCount": 10703,
+        "name": "Codeforces Round 986 (Div. 2)",
+        "div": "D2",
+        "startTime": "2024-11-10T15:35:00"
     }
 }
