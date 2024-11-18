@@ -11458,5 +11458,11 @@
         "name": "Codeforces Round 988 (Div. 3)",
         "div": "D3",
         "startTime": "2024-11-17T14:35:00"
+    },
+    "2038": {
+        "pCount": 2066,
+        "name": "2024-2025 ICPC, NERC, Southern and Volga Russian Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
+        "div": "Unknown",
+        "startTime": "2024-11-18T10:35:00"
     }
 }
