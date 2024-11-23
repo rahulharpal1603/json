@@ -11464,5 +11464,11 @@
         "name": "2024-2025 ICPC, NERC, Southern and Volga Russian Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
         "div": "Unknown",
         "startTime": "2024-11-18T10:35:00"
+    },
+    "2039": {
+        "pCount": 9727,
+        "name": "CodeTON Round 9 (Div. 1 + Div. 2, Rated, Prizes!)",
+        "div": "D1+2",
+        "startTime": "2024-11-23T14:35:00"
     }
 }
