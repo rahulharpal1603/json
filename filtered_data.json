@@ -11470,5 +11470,11 @@
         "name": "CodeTON Round 9 (Div. 1 + Div. 2, Rated, Prizes!)",
         "div": "D1+2",
         "startTime": "2024-11-23T14:35:00"
+    },
+    "2041": {
+        "pCount": 1509,
+        "name": "2024 ICPC Asia Taichung Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
+        "div": "Unknown",
+        "startTime": "2024-11-24T07:05:00"
     }
 }
