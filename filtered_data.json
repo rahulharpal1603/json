@@ -11476,5 +11476,11 @@
         "name": "2024 ICPC Asia Taichung Regional Contest (Unrated, Online Mirror, ICPC Rules, Preferably Teams)",
         "div": "Unknown",
         "startTime": "2024-11-24T07:05:00"
+    },
+    "2034": {
+        "pCount": 11736,
+        "name": "Rayan Programming Contest 2024 - Selection (Codeforces Round 989, Div. 1 + Div. 2)",
+        "div": "D1+2",
+        "startTime": "2024-11-30T14:35:00"
     }
 }
