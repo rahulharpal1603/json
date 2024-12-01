@@ -11482,5 +11482,11 @@
         "name": "Rayan Programming Contest 2024 - Selection (Codeforces Round 989, Div. 1 + Div. 2)",
         "div": "D1+2",
         "startTime": "2024-11-30T14:35:00"
+    },
+    "2045": {
+        "pCount": 695,
+        "name": "2024-2025 ICPC Asia Jakarta Regional Contest (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
+        "div": "Unknown",
+        "startTime": "2024-12-01T05:05:00"
     }
 }
