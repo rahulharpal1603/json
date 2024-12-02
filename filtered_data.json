@@ -11488,5 +11488,11 @@
         "name": "2024-2025 ICPC Asia Jakarta Regional Contest (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
         "div": "Unknown",
         "startTime": "2024-12-01T05:05:00"
+    },
+    "2042": {
+        "pCount": 12809,
+        "name": "Educational Codeforces Round 172 (Rated for Div. 2)",
+        "div": "ED2",
+        "startTime": "2024-12-02T14:35:00"
     }
 }
