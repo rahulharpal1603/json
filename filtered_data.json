@@ -11494,5 +11494,17 @@
         "name": "Educational Codeforces Round 172 (Rated for Div. 2)",
         "div": "ED2",
         "startTime": "2024-12-02T14:35:00"
+    },
+    "2047": {
+        "pCount": 6695,
+        "name": "Codeforces Round 990 (Div. 2)",
+        "div": "D2",
+        "startTime": "2024-12-03T06:25:00"
+    },
+    "2046": {
+        "pCount": 730,
+        "name": "Codeforces Round 990 (Div. 1)",
+        "div": "D1",
+        "startTime": "2024-12-03T06:25:00"
     }
 }
