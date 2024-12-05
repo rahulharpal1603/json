@@ -11506,5 +11506,11 @@
         "name": "Codeforces Round 990 (Div. 1)",
         "div": "D1",
         "startTime": "2024-12-03T06:25:00"
+    },
+    "2050": {
+        "pCount": 19973,
+        "name": "Codeforces Round 991 (Div. 3)",
+        "div": "D3",
+        "startTime": "2024-12-05T14:35:00"
     }
 }
