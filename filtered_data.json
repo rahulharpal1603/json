@@ -11524,5 +11524,11 @@
         "name": "2024-2025 ICPC, NERC, Northern Eurasia Finals (Unrated, Online Mirror, ICPC Rules, Teams Preferred)",
         "div": "Unknown",
         "startTime": "2024-12-15T07:35:00"
+    },
+    "2044": {
+        "pCount": 26725,
+        "name": "Codeforces Round 993 (Div. 4)",
+        "div": "D4",
+        "startTime": "2024-12-15T14:35:00"
     }
 }
