@@ -11530,5 +11530,11 @@
         "name": "Codeforces Round 993 (Div. 4)",
         "div": "D4",
         "startTime": "2024-12-15T14:35:00"
+    },
+    "2048": {
+        "pCount": 15281,
+        "name": "Codeforces Global Round 28",
+        "div": "Unknown",
+        "startTime": "2024-12-19T14:35:00"
     }
 }
