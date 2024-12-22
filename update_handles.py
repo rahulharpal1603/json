@@ -34,6 +34,11 @@ def add_tourist_handles(comments, handles_data):
 # Function to commit changes to the repository
 def commit_changes():
     try:
+        # Configure Git identity
+        subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
+        subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
+
+        # Stage, commit, and push changes
         subprocess.run(["git", "add", JSON_FILE], check=True)
         subprocess.run(
             [
