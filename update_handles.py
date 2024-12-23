@@ -5,7 +5,7 @@ import os
 import subprocess
 
 # API endpoint
-API_URL = "https://codeforces.com/api/blogEntry.comments?blogEntryId=137588"
+API_URL = "https://codeforces.com/api/blogEntry.comments?blogEntryId=137639"
 JSON_FILE = "handles.json"
 
 # Load existing data from JSON file
