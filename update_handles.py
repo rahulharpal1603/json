@@ -17,8 +17,9 @@ except FileNotFoundError:
 
 # Function to add new tourist handles efficiently
 def add_tourist_handles(comments, handles_data):
-    tourist_handles = handles_data.get("Tourist", [])
-    tourist_set = set(tourist_handles)  # Use a set for efficient lookups
+    # Initialize the tourist handles with a default username
+    tourist_handles = ["tourist"]
+    tourist_set = set(tourist_handles)  # Initialize set with the default username
 
     for comment in comments:
         text = comment.get("text", "").lower()
@@ -28,8 +29,10 @@ def add_tourist_handles(comments, handles_data):
             tourist_handles.append(commentator_handle)
             tourist_set.add(commentator_handle)
 
+    # Update the handles_data with the reset list
     handles_data["Tourist"] = tourist_handles
     return handles_data
+
 
 # Function to commit changes to the repository
 def commit_changes():
