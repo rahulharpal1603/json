@@ -44,8 +44,19 @@ def commit_changes():
         subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
 
-        # Fetch remote changes to avoid push conflicts
+        # Check for unstaged changes and stash them if needed
+        unstaged_changes = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if unstaged_changes.stdout.strip():
+            print("Stashing local changes...")
+            subprocess.run(["git", "stash"], check=True)
+
+        # Fetch and rebase remote changes
         subprocess.run(["git", "pull", "--rebase"], check=True)
+
+        # Apply stashed changes back if any
+        if unstaged_changes.stdout.strip():
+            print("Applying stashed changes...")
+            subprocess.run(["git", "stash", "pop"], check=True)
 
         # Stage, commit, and push changes
         subprocess.run(["git", "add", JSON_FILE], check=True)
@@ -59,6 +70,7 @@ def commit_changes():
         print(f"Error while committing changes: {e}")
     except Exception as e:
         print(f"Unexpected error: {e}")
+
 
 # Main script to poll the API every 5 minutes for 1 hour
 def main():
