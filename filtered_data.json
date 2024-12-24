@@ -11548,5 +11548,11 @@
         "name": "Codeforces Round 995 (Div. 3)",
         "div": "D3",
         "startTime": "2024-12-22T14:35:00"
+    },
+    "2043": {
+        "pCount": 16813,
+        "name": "Educational Codeforces Round 173 (Rated for Div. 2)",
+        "div": "ED2",
+        "startTime": "2024-12-24T14:35:00"
     }
 }
