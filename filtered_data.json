@@ -11566,5 +11566,11 @@
         "name": "Hello 2025",
         "div": "Unknown",
         "startTime": "2025-01-04T14:35:00"
+    },
+    "2055": {
+        "pCount": 21708,
+        "name": "Codeforces Round 996 (Div. 2)",
+        "div": "D2",
+        "startTime": "2025-01-12T14:35:00"
     }
 }
