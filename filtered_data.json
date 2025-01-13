@@ -11572,5 +11572,11 @@
         "name": "Codeforces Round 996 (Div. 2)",
         "div": "D2",
         "startTime": "2025-01-12T14:35:00"
+    },
+    "2054": {
+        "pCount": 1831,
+        "name": "MaraTON Challenge 1",
+        "div": "Unknown",
+        "startTime": "2024-12-23T13:35:00"
     }
 }
