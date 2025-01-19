@@ -11584,5 +11584,11 @@
         "name": "Codeforces Round 997 (Div. 2)",
         "div": "D2",
         "startTime": "2025-01-17T14:35:00"
+    },
+    "2060": {
+        "pCount": 26847,
+        "name": "Codeforces Round 998 (Div. 3)",
+        "div": "D3",
+        "startTime": "2025-01-19T14:35:00"
     }
 }
