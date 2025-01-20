@@ -11590,5 +11590,11 @@
         "name": "Codeforces Round 998 (Div. 3)",
         "div": "D3",
         "startTime": "2025-01-19T14:35:00"
+    },
+    "2061": {
+        "pCount": 12962,
+        "name": "IAEPC Preliminary Contest (Codeforces Round 999, Div. 1 + Div. 2)",
+        "div": "D1+2",
+        "startTime": "2025-01-20T14:35:00"
     }
 }
