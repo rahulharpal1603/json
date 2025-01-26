@@ -11602,5 +11602,11 @@
         "name": "Codeforces Round 1000 (Div. 2)",
         "div": "D2",
         "startTime": "2025-01-22T12:05:00"
+    },
+    "2062": {
+        "pCount": null,
+        "name": "Ethflow Round 1 (Codeforces Round 1001, Div. 1 + Div. 2)",
+        "div": "D1+2",
+        "startTime": "2025-01-26T14:35:00"
     }
 }
